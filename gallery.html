@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>Gallery</title>
+<style>
+  nav {
+    background-color:red; 
+    display: flex;         
+    gap: 50px;                 
+    padding: 10px 20px;     
+  }
+
+  nav a {
+    color: #ffffff;              
+    font-size: 20px;         
+    padding: 8px 12px;       
+  }
+  h1 {
+    color:#000;
+    text-align: center;
+  }
+
+  .gallery-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+  }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .gallery-item img {
+    width: 100%;
+    height: 200px;
+  }
+</style>
+</head>
+<body>
+<h1>Gallery</h1>
+<nav>
+  <a href="home.html">Home</a>
+</nav>
+
+<div class="gallery-container">
+  <div class="gallery-grid">
+    <div class="gallery-item"><img src="G1.jpeg" alt="Gallery image 1"></div>
+    <div class="gallery-item"><img src="G2.jpeg" alt="Gallery image 2"></div>
+    <div class="gallery-item"><img src="G3.jpeg" alt="Gallery image 3"></div>
+    <div class="gallery-item"><img src="G4.jpeg" alt="Gallery image 4"></div>
+    <div class="gallery-item"><img src="G5.jpeg" alt="Gallery image 5"></div>
+    <div class="gallery-item"><img src="G6.jpeg" alt="Gallery image 6"></div>
+    <div class="gallery-item"><img src="G7.jpeg" alt="Gallery image 7"></div>
+    <div class="gallery-item"><img src="G8.jpeg" alt="Gallery image 8"></div>
+    <div class="gallery-item"><img src="G9.jpeg" alt="Gallery image 9"></div>
+    <div class="gallery-item"><img src="G10.jpg" alt="Gallery image 10"></div>
+    <div class="gallery-item"><img src="G11.jpg" alt="Gallery image 11"></div>
+    <div class="gallery-item"><img src="G12.jpg" alt="Gallery image 12"></div>
+  </div>
+</div>
+
+</body>
+</html>

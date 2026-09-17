@@ -1,0 +1,119 @@
+<html>
+<head>
+  <title>Faculty Details</title>
+  <style>
+    h1, .section-title {
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 28px;
+    }
+
+    nav {
+      background-color: red;
+      padding: 10px 20px;
+    }
+
+    nav a {
+      color: #fff;
+      display:flex;
+      font-size: 20px;
+      padding: 8px 12px;
+    }
+
+    .faculty-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .faculty-img-container {
+      height: 200px;
+    }
+
+    .faculty-img-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .faculty-info {
+      text-align: center;
+    }
+
+    .faculty-name {
+      font-size: 24px;
+    }
+
+    .faculty-designation {
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Faculty Details</h1>
+
+  <nav>
+    <a href="home.html">Home</a>
+  </nav>
+
+  <div>
+    <h2 class="section-title">Meet Our Faculty</h2>
+    <div class="faculty-grid">
+      <div class="faculty-card">
+        <div class="faculty-img-container">
+          <img src="sreeja.jpg" alt="Sreeja K">
+        </div>
+        <div class="faculty-info">
+          <h3 class="faculty-name">Sreeja K</h3>
+          <p class="faculty-designation">Associate Professor &amp; HOD</p>
+        </div>
+      </div>
+
+      <div class="faculty-card">
+        <div class="faculty-img-container">
+          <img src="sujitha.png" alt="R Sujitha">
+        </div>
+        <div class="faculty-info">
+          <h3 class="faculty-name">R Sujitha</h3>
+          <p class="faculty-designation">Assistant Professor</p>
+        </div>
+      </div>
+
+      <div class="faculty-card">
+        <div class="faculty-img-container">
+          <img src="rekha.jpg" alt="Rehka M Pillai">
+        </div>
+        <div class="faculty-info">
+          <h3 class="faculty-name">Rehka M Pillai</h3>
+          <p class="faculty-designation">Associate Professor</p>
+        </div>
+      </div>
+
+      <div class="faculty-card">
+        <div class="faculty-img-container">
+          <img src="jeeja.jpg" alt="Jeeja G S">
+        </div>
+        <div class="faculty-info">
+          <h3 class="faculty-name">Jeeja G S</h3>
+          <p class="faculty-designation">Associate Professor</p>
+        </div>
+      </div>
+
+      <div class="faculty-card">
+        <div class="faculty-img-container">
+          <img src="adhithya.jpg" alt="Adhithya J V">
+        </div>
+        <div class="faculty-info">
+          <h3 class="faculty-name">Adhithya J V</h3>
+          <p class="faculty-designation">Assistant Professor</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
